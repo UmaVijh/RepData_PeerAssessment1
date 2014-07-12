@@ -59,7 +59,7 @@ sum(is.na(dfAct$steps))
 ```
 
 * Filling in all of the missing values in the dataset. 
-* The strategy uses here is to replace the NA values by the mean for that 5-minute interval. The Zoo package, na.aggregate function that replaces the NA values by the appropriate mean.
+* The strategy used here is to replace the NA values by the mean for that 5-minute interval. The Zoo package, na.aggregate function that replaces the NA values by the appropriate mean.
 * Create a new dataset that is equal to the original dataset but with the missing data filled in.
 
 ```{r}
